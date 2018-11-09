@@ -1,14 +1,62 @@
 {
-  "name": "broken-link-checker",
-  "description": "Find broken links, missing images, etc in your HTML.",
-  "version": "0.7.8",
-  "license": "MIT",
-  "author": "Steven Vachon <contact@svachon.com> (https://www.svachon.com/)",
-  "repository": "stevenvachon/broken-link-checker",
-  "main": "lib",
+  "_args": [
+    [
+      {
+        "raw": "broken-link-checker",
+        "scope": null,
+        "escapedName": "broken-link-checker",
+        "name": "broken-link-checker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\John Lin\\broken-link-checker"
+    ]
+  ],
+  "_from": "broken-link-checker@latest",
+  "_hasShrinkwrap": false,
+  "_id": "broken-link-checker@0.7.8",
+  "_inCache": true,
+  "_location": "/broken-link-checker",
+  "_nodeVersion": "9.8.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/broken-link-checker_0.7.8_1520984228055_0.21918313700739023"
+  },
+  "_npmUser": {
+    "name": "stevenvachon",
+    "email": "contact@svachon.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "broken-link-checker",
+    "scope": null,
+    "escapedName": "broken-link-checker",
+    "name": "broken-link-checker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/broken-link-checker/-/broken-link-checker-0.7.8.tgz",
+  "_shasum": "47ea837e1b43ec2feac220207dc3f44c03b49ec0",
+  "_shrinkwrap": null,
+  "_spec": "broken-link-checker",
+  "_where": "C:\\Users\\John Lin\\broken-link-checker",
+  "author": {
+    "name": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "https://www.svachon.com/"
+  },
   "bin": {
     "blc": "bin/blc",
     "broken-link-checker": "bin/blc"
+  },
+  "bugs": {
+    "url": "https://github.com/stevenvachon/broken-link-checker/issues"
   },
   "dependencies": {
     "bhttp": "^1.2.1",
@@ -19,8 +67,8 @@
     "default-user-agent": "^1.0.0",
     "errno": "~0.1.4",
     "extend": "^3.0.0",
-    "humanize-duration": "^3.9.1",
     "http-equiv-refresh": "^1.0.0",
+    "humanize-duration": "^3.9.1",
     "is-stream": "^1.0.1",
     "is-string": "^1.0.4",
     "limited-request-queue": "^2.0.0",
@@ -34,6 +82,7 @@
     "urlcache": "~0.7.0",
     "urlobj": "0.0.11"
   },
+  "description": "Find broken links, missing images, etc in your HTML.",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^6.0.0",
@@ -45,18 +94,24 @@
     "slashes": "^1.0.5",
     "st": "^1.2.0"
   },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-/zH4/nLMNKDeDH5nVuf/R6WYd0Yjnar1NpcdAO2+VlwjGKzJa6y42C03UO+imBSHwe6BefSkVi82fImE2Rb7yg==",
+    "shasum": "47ea837e1b43ec2feac220207dc3f44c03b49ec0",
+    "tarball": "http://registry.npmjs.org/broken-link-checker/-/broken-link-checker-0.7.8.tgz",
+    "fileCount": 23,
+    "unpackedSize": 79591
+  },
   "engines": {
     "node": ">= 0.10"
-  },
-  "scripts": {
-    "test": "mocha test/ --reporter spec --check-leaks --bail",
-    "test-watch": "mocha test/ --reporter spec --check-leaks --bail -w"
   },
   "files": [
     "bin",
     "lib",
     "license"
   ],
+  "gitHead": "09682b3250e1b2d01e4995bac77ec77cb612db46",
+  "homepage": "https://github.com/stevenvachon/broken-link-checker#readme",
   "keywords": [
     "404",
     "html",
@@ -64,5 +119,25 @@
     "links",
     "seo",
     "url"
-  ]
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "maintainers": [
+    {
+      "name": "stevenvachon",
+      "email": "contact@svachon.com"
+    }
+  ],
+  "name": "broken-link-checker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenvachon/broken-link-checker.git"
+  },
+  "scripts": {
+    "test": "mocha test/ --reporter spec --check-leaks --bail",
+    "test-watch": "mocha test/ --reporter spec --check-leaks --bail -w"
+  },
+  "version": "0.7.8"
 }
